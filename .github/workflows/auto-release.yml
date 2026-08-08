@@ -1,0 +1,19 @@
+name: auto-release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      bump-type:
+        default: patch
+
+jobs:
+  release:
+    uses: pleme-io/substrate/.github/workflows/cargo-auto-release.yml@main
+    with:
+      bump-type: ${{ inputs.bump-type || 'patch' }}
+      # crate2nix regen is for nix-build integration, not the crates.io publish;
+      # skip it (cargo publish only needs Cargo.toml + Cargo.lock).
+      regenerate-cargo-nix: "false"
+    secrets: inherit
