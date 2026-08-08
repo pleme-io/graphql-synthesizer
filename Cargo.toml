@@ -1,0 +1,14 @@
+[package]
+name = "graphql-synthesizer"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89.0"
+description = "Typed AST for structurally correct GraphQL executable-document generation"
+license = "MIT"
+repository = "https://github.com/pleme-io/graphql-synthesizer"
+
+[dependencies]
+synthesizer-core = { git = "https://github.com/pleme-io/synthesizer-core" }
+
+[dev-dependencies]
+proptest = "1"
