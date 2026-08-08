@@ -262,7 +262,8 @@ dependencies = [
 [[package]]
 name = "synthesizer-core"
 version = "0.1.1"
-source = "git+https://github.com/pleme-io/synthesizer-core#dd7a3b907419241d530ec5f890ab5ead81f82a5d"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2d61c6a42add42ba68340770985043123fa594ad86b0a02b613bd9c0de62bf2f"
 
 [[package]]
 name = "tempfile"

@@ -8,7 +8,9 @@ license = "MIT"
 repository = "https://github.com/pleme-io/graphql-synthesizer"
 
 [dependencies]
-synthesizer-core = { git = "https://github.com/pleme-io/synthesizer-core" }
+# crates.io, not git: a crates.io release cannot carry a git dependency,
+# and the family publishes there (go-synthesizer 0.1.2 is the proof).
+synthesizer-core = "0.1.1"
 
 [dev-dependencies]
 proptest = "1"
