@@ -15,8 +15,6 @@ fn n(s: &str) -> Name {
 // ══════════════════════════════════════════════════════════════
 
 /// tend's batch, built as a tree.
-///
-/// The `format!()` version of this is quoted in `theory/GRAPHQL-AST.md`.
 #[test]
 fn the_batch_shape_that_needed_format_is_a_tree() {
     // Built bottom-up with names, because hand-balancing five levels of

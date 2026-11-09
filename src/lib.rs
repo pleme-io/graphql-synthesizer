@@ -12,8 +12,7 @@
 //!
 //! ## Why this exists
 //!
-//! [`theory/GRAPHQL-AST.md`](https://github.com/pleme-io/theory/blob/main/GRAPHQL-AST.md)
-//! carries the doctrine and the receipt. The short version: `tend` built
+//! The receipt: `tend` built
 //! GitHub's batch query with `format!()`, fabricated a ref that does not
 //! exist (`refs/heads/HEAD`), GitHub answered `null` instead of erroring,
 //! and the *default* code path silently returned nothing for most of the

@@ -1,17 +1,13 @@
 # graphql-synthesizer
 
 > **★★★ CSE / Knowable Construction.** This repo operates under
-> **Constructive Substrate Engineering** — canonical specification at
-> [`pleme-io/theory/CONSTRUCTIVE-SUBSTRATE-ENGINEERING.md`](https://github.com/pleme-io/theory/blob/main/CONSTRUCTIVE-SUBSTRATE-ENGINEERING.md).
+> **Constructive Substrate Engineering**.
 > The Compounding Directive is in the org-level `pleme-io/CLAUDE.md` ★★★
-> section. Read both before non-trivial changes.
+> section. Read it before non-trivial changes.
 
 Typed AST for structurally correct GraphQL **executable-document**
 generation. The 19th member of the pleme-io synthesizer family, over the
 shared `synthesizer-core` contract.
-
-**Doctrine:** [`theory/GRAPHQL-AST.md`](https://github.com/pleme-io/theory/blob/main/GRAPHQL-AST.md) ·
-**parent rule:** [`theory/TYPED-EMISSION.md`](https://github.com/pleme-io/theory/blob/main/TYPED-EMISSION.md).
 
 ## Why it exists — the receipt, not a principle
 
