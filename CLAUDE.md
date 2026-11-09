@@ -54,8 +54,8 @@ exhaustively.
 - **Statically-known client queries stay `cynic`'s.** This covers the case
   cynic structurally cannot: a document composed at runtime. A second client
   stack would be the duplication the fleet forbids.
-- **Not yet built:** structural diff and patch emission (`GRAPHQL-AST.md`
-  §V, M3). The crate today is the AST + canonical printer.
+- **Not yet built:** structural diff and patch emission (M3).
+  The crate today is the AST + canonical printer.
 
 ## Layout
 
